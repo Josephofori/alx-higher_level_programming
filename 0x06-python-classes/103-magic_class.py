@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""Define the clas MagicClass"""
+
 import math
 
-"""Define the clas Magic class"""
 class MagicClass:
 
     """Class that stores the properties
