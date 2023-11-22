@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Dwfine the class Node"""
+"""Dwfine the class SinglyLinkedList"""
 
 class Node:
     def __init__(self, data, next_node=None):
@@ -26,7 +26,6 @@ class Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
-"""Define the class SinglyLinkedList"""
 
 class SinglyLinkedList:
     def __str__(self):
