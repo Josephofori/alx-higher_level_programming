@@ -6,7 +6,6 @@ def no_c(my_string):
     for i in range(l_string):
         if new_string[i] == 'c' or new_string[i] == 'C':
             del new_string[i]
-            string_update = new_string.append()
         else:
-            string_update = new_string.append()
+            string_update = new_string.append(new_string[i])
     print(string_update)
